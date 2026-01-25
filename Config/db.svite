@@ -1,0 +1,15 @@
+;
+$TTL    604800
+@       IN      SOA     ns1.svite.com. admin.svite.com. (
+                              3         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      ns1.svite.com.
+@       IN      A       172.17.74.240
+ns1     IN      A       172.17.74.240
+server  IN      A       172.17.74.240
+ldap    IN      A       172.17.74.240
+kdc     IN      A       172.17.74.240

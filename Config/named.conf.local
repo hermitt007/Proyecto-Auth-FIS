@@ -1,0 +1,4 @@
+zone "svite.com" {
+    type master;
+    file "/etc/bind/db.svite";
+};
